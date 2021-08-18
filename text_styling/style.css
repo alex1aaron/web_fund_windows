@@ -1,0 +1,29 @@
+h1{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    margin: 10px;
+    padding: 10px 
+}
+span{
+    color: cyan;
+
+}
+h2{
+    color: white;
+    background-color: rebeccapurple;
+    font-style: italic;
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
+    margin: 10px
+}
+h3{
+    color: purple;
+    background-color: lightskyblue;
+    font-family: cursive;
+    text-decoration: underline 3px;
+    text-align: right;
+    padding: 10px;
+    margin: 10px
+}
