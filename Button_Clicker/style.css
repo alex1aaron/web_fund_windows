@@ -7,11 +7,12 @@ body{
 }
 .navbar{
     margin: 20px auto;
-    background-color: lightgray;
+    background-image: linear-gradient( lightgray, whitesmoke, azure);
     border-radius: 3px;
     display: flex; 
     justify-content: space-around; 
     align-items: center;
+    border-top: 5px double royalblue;
 }
 
 .navbar .login{
@@ -47,6 +48,7 @@ body{
 .card{
     display: flex;
     border: 2px solid black;
+    border-radius: 20px;
     margin-bottom: 30px;
     background-color: whitesmoke;
 }
@@ -67,6 +69,7 @@ body{
     justify-content: center;
     flex-direction: column;
     border: 2px solid black;
+    border-radius: 20px;
     padding: 20px;
 }
 
