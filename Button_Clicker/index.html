@@ -12,8 +12,8 @@
 <body>
     <div class="navbar">
         <h1>Dojonary</h1>
-        <input type="text" placeholder="Search">
-        <input type="submit" value="Login">
+        <input class="search" type="text" placeholder="Search">
+        <button class="login" onclick="turnOff(this)">Login</button>
     </div>
     <div class= "main">
         <div class="col-1">
@@ -22,7 +22,7 @@
                     <h2>ninja</h2>
                     <h4><em>noun</em></h4>
                     <h5>Plural: <em>ninjas</em></h5>
-                    <button class="likes">13 likes</button>
+                    <button class="likes" onclick="alert('Ninja was liked!')">13 likes</button>
                 </div>
                 <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>.</p>
             </div>
@@ -31,15 +31,15 @@
                     <h2>ninja</h2>
                     <h4><em>noun</em></h4>
                     <h5>Plural: <em>ninjas</em></h5>
-                    <button class="likes">37 likes</button>
+                    <button class="likes" onclick="alert('Ninja was liked!')">37 likes</button>
                 </div>
                 <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus.</p>
             </div>
         </div>
         <div class="col-2">
             <div class="add-def">
-                <h3>Dojonary is defined by <strong>YOU</strong></h3>
-                <button>Add Definition</button>
+                <p style="font-size: large;">Dojonary is defined by <strong style="font-weight: bolder; font-size: larger;">YOU</strong></p>
+                <button id="add" onclick="hide(this)">Add Definition</button>
             </div>
         </div>
     </div>

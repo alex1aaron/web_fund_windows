@@ -1,9 +1,31 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: azure;
+}
 .navbar{
     margin: 20px auto;
     background-color: lightgray;
+    border-radius: 3px;
     display: flex; 
     justify-content: space-around; 
     align-items: center;
+}
+
+.navbar .login{
+    box-shadow: 3px 3px grey;
+    background-color: royalblue;
+    color: seashell;
+    border-radius: 15px 5px 15px 5px;
+    padding: 10px;
+}
+
+.navbar .search{
+    border-radius: 16px;
+    width: 500px;
+    padding: 10px;
 }
 
 .main{
@@ -26,6 +48,7 @@
     display: flex;
     border: 2px solid black;
     margin-bottom: 30px;
+    background-color: whitesmoke;
 }
 
 .card p{
@@ -45,4 +68,16 @@
     flex-direction: column;
     border: 2px solid black;
     padding: 20px;
+}
+
+.likes{
+    background-color: gold;
+    box-shadow: 2px 1.5px black;
+    padding: 10px 20px;
+}
+
+#add{
+    background-color: lightgreen;
+    box-shadow: 2px 1.5px black;
+    padding: 10px 20px;
 }
