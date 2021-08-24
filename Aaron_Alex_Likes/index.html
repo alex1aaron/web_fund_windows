@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <h1 style="background-color: black; color: whitesmoke; display: block; padding: 30px;">Network</h1>
+    <div class="main">
+        <div class="col-1">
+            <div class="avatar">
+                <img src="C:\Users\18188\Desktop\coding_dojo\web_fund\video-preview\assets\user.png" alt="user photo"
+                    width="50" height="50">
+                <br>
+                <a href="#">Add an avatar</a>
+                <h2>Alex Aaron</h2>
+            </div>
+        </div>    
+        <div class="col-2">
+                <div class="card">
+                    <h1>Ashley Williams</h1>
+                    <p id="likes1">no like(s)</p>
+                    <button onclick="add1()">Like</button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A hic, maiores deserunt harum culpa
+                        unde
+                        assumenda enim sint! Ipsam corporis deleniti laboriosam blanditiis nobis soluta esse itaque
+                        consequatur
+                        enim natus!</p>
+                </div>
+                <div class="card">
+                    <h1>Jesse Aaron</h1>
+                    <p id="likes2">no like(s)</p>
+                    <button onclick="add2()">Like</button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A hic, maiores deserunt harum culpa
+                        unde
+                        assumenda enim sint! Ipsam corporis deleniti laboriosam blanditiis nobis soluta esse itaque
+                        consequatur
+                        enim natus!</p>
+                </div>
+                <div class="card">
+                    <h1>Avery Kentis</h1>
+                    <p id="likes3">no like(s)</p>
+                    <button onclick="add3()">Like</button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A hic, maiores deserunt harum culpa
+                        unde
+                        assumenda enim sint! Ipsam corporis deleniti laboriosam blanditiis nobis soluta esse itaque
+                        consequatur
+                        enim natus!</p>
+                </div>
+                <button id="hidden" onmouseover="visible(this)" onmouseout="normal(this)" onclick="reset()">Hidden Reset Button</button>
+        </div>  
+        <script src="script.js"></script>
+    </div>    
+</body>
+</html>
